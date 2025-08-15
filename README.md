@@ -25,22 +25,22 @@ Common uses include:
 
 Below are **core syntax elements** supported by most Markdown processors (including GitHub Flavored Markdown):
 
-| Feature | Syntax | Example | Rendered Output |
-|---------|--------|---------|-----------------|
-| **Heading 1–6** | `#` to `######` | `## Heading 2` | ## Heading 2 |
-| **Bold** | `**text**` or `__text__` | `**bold**` | **bold** |
-| **Italic** | `*text*` or `_text_` | `*italic*` | *italic* |
-| **Bold + Italic** | `***text***` | `***bold italic***` | ***bold italic*** |
-| **Blockquote** | `> text` | `> Quote` | > Quote |
-| **Ordered List** | `1. item` | `1. First` | 1. First |
-| **Unordered List** | `- item` or `* item` | `- Bullet` | - Bullet |
-| **Code (inline)** | `` `code` `` | `` `print("Hi")` `` | `print("Hi")` |
-| **Code Block** | ```` ```lang ```` | ```python\nprint("Hi")\n``` | (code block) |
-| **Link** | `[title](url)` | `[GitHub](https://github.com)` | [GitHub](https://github.com) |
-| **Image** | `![alt](url)` | `![Logo](logo.png)` | ![Logo](logo.png) |
-| **Table** | `| col1 | col2 |` | see table | see table |
-| **Horizontal Rule** | `---` | `---` | --- |
-| **Task List** (GFM) | `- [ ]` / `- [x]` | `- [x] Done` | - [x] Done |
+| Feature | Syntax (Markdown / HTML) | Example Rendered Inside Table |
+|---------|--------------------------|-------------------------------|
+| Heading 2 | `<h2>Heading 2</h2>` | <h2>Heading 2</h2> |
+| Bold | `**text**` | **text** |
+| Italic | `*text*` | *text* |
+| Bold + Italic | `***text***` | ***text*** |
+| Blockquote | `<blockquote>Quote</blockquote>` | <blockquote>Quote</blockquote> |
+| Ordered List | `1. item` | 1. Item |
+| Unordered List | `- item` | - Item |
+| Inline Code | `` `code` `` | `code` |
+| Code Block | ```` ```lang```` | *(see below)* |
+| Link | `[GitHub](https://github.com)` | [GitHub](https://github.com) |
+| Image | `![alt](url)` | ![Logo](https://via.placeholder.com/40) |
+| Table | `| col1 | col2 |` | *(this is a table)* |
+| Horizontal Rule | `---` | --- |
+| Task List | `- [x]` | - [x] Done |
 
  *Tip:* GitHub Flavored Markdown also supports syntax highlighting in fenced code blocks and task lists.
 
